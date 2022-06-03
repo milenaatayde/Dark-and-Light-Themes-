@@ -1,5 +1,9 @@
 body {
     font-family: monospace;
+    --bg: var(--green);
+    --fontColor: var(--white);
+    --bntFontColor: var(--gray);
+    --btnBg: var(--black);
 }
 ul {
     font-family: Helvetica, sans-serif;
@@ -11,14 +15,13 @@ li {
 }
 
 
-
-.light-theme {
+/*.light-theme {
     --bg: var(--green);
     --fontColor: var(--white);
     --bntFontColor: var(--gray);
     --btnBg: var(--black);
     
-}
+}*/
 
 .dark-theme {
     --bg: var(--black);
